@@ -5,6 +5,8 @@
 
 An Canvas control for MAUI.
 
+![image](https://github.com/user-attachments/assets/a44c4780-068b-49c4-8954-46341446f067)
+
 ## Usage
 
 Add `UseCanvas()` to tour app builder.
