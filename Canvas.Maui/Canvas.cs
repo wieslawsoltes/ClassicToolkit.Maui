@@ -1,3 +1,4 @@
+// Based on https://github.com/AvaloniaUI/Avalonia/blob/a5f5b8f67ec0cd2fdde444ea7ba0c8cdd6d8d048/src/Avalonia.Controls/Canvas.cs
 using Microsoft.Maui.Layouts;
 
 namespace Canvas.Maui;
