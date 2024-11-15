@@ -3,7 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/Canvas.Maui.svg)](https://www.nuget.org/packages/Canvas.Maui)
 [![NuGet](https://img.shields.io/nuget/dt/Canvas.Maui.svg)](https://www.nuget.org/packages/Canvas.Maui)
 
-An Canvas control for MAUI..
+An Canvas control for MAUI.
 
 ## Usage
 
