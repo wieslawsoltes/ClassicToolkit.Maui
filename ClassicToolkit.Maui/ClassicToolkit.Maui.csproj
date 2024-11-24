@@ -16,6 +16,7 @@
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
         <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+        <RootNamespace>ClassicToolkit.Maui</RootNamespace>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -23,11 +24,11 @@
         <Authors>Wiesław Šoltés</Authors>
         <Company>Wiesław Šoltés</Company>
         <Copyright>Copyright © Wiesław Šoltés 2024</Copyright>
-        <PackageProjectUrl>https://github.com/wieslawsoltes/Canvas.Maui</PackageProjectUrl>
-        <Description>An Canvas control for MAUI.</Description>
-        <PackageId>Canvas.Maui</PackageId>
+        <PackageProjectUrl>https://github.com/wieslawsoltes/ClassicToolkit.Maui</PackageProjectUrl>
+        <Description>Classic controls toolkit for MAUI.</Description>
+        <PackageId>ClassicToolkit.Maui</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageTags>canvas;xaml;control;maui</PackageTags>
+        <PackageTags>canvas;viebox;xaml;control;controls;maui</PackageTags>
     </PropertyGroup>
 
     <!--

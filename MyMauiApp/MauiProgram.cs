@@ -1,4 +1,4 @@
-﻿using Canvas.Maui;
+﻿using ClassicToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
 namespace MyMauiApp;
@@ -10,7 +10,7 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
-            .UseCanvas()
+            .UseClassicToolkit()
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

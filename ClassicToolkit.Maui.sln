@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMauiApp", "MyMauiApp\MyMauiApp.csproj", "{6EEBFF00-3A5E-4CB9-87AA-B2D6D47B2316}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvas.Maui", "Canvas.Maui\Canvas.Maui.csproj", "{0C45ACC7-69FF-4D23-B81E-6426B7873DBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicToolkit.Maui", "ClassicToolkit.Maui\ClassicToolkit.Maui.csproj", "{0C45ACC7-69FF-4D23-B81E-6426B7873DBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
