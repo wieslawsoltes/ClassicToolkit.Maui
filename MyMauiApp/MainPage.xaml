@@ -3,22 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyMauiApp.MainPage">
 
-  <Canvas WidthRequest="400" 
-          HeightRequest="400" 
-          Background="LightGray">
-    <Label Text="Name" 
-           WidthRequest="100" HeightRequest="32"
-           Canvas.Left="50"
-           Canvas.Top="50" />
-    <Entry Text="Wiesław" 
-           WidthRequest="100" HeightRequest="32"
-           Canvas.Left="50"
-           Canvas.Top="82" />
-    <Border Background="Red"
-            WidthRequest="100" HeightRequest="100"
-            Canvas.Left="50"
-            Canvas.Top="150">
-    </Border>
-  </Canvas>
+  <Viewbox Stretch="Uniform">
+    <Canvas WidthRequest="400" 
+            HeightRequest="400" 
+            Background="LightGray">
+      <Label Text="Name" 
+             WidthRequest="100" HeightRequest="32"
+             Canvas.Left="50"
+             Canvas.Top="50" />
+      <Entry Text="Wiesław" 
+             WidthRequest="100" HeightRequest="32"
+             Canvas.Left="50"
+             Canvas.Top="82" />
+      <Border Background="Red"
+              WidthRequest="100" HeightRequest="100"
+              Canvas.Left="50"
+              Canvas.Top="150">
+      </Border>
+    </Canvas>
+  </Viewbox>
 
+  <!--
+  <Decorator Background="Red" Padding="10">
+    <Border Background="Green"/>
+  </Decorator>
+  -->
+
+  
 </ContentPage>
